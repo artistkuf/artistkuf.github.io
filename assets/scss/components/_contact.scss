@@ -1,0 +1,50 @@
+.sec__contact{
+  background-color: $color__light-dark;
+  margin-bottom: 3em;
+  .txt__contact{
+    h2{@include text__headline;color: $color__dark;font-weight: $bold;margin-bottom: 0.5em}
+    h3{
+      @include text__content;color: $color__dark;font-weight: $bold;line-height: 2em;
+      span{
+        a{
+          color: $color__peace;transition: all 0.2s ease-in;
+          &:hover{color: $color__orange;}
+        }
+      }
+    }
+  }
+  .form__contact{
+    margin-top: 2em;
+    .field{
+      i{color: $color__peace;}
+      input{@include text__content;font-weight: $bold;}
+      textarea{@include text__content;font-weight: $semi__normal;}
+      button{
+        background-color: $color__peace;@include text__content;
+        font-weight: $bold;color: $color__white;padding: 0.5em 1.5em;border-radius: 2em;
+        border:none;cursor: pointer;transition: all 0.3s ease-in-out;
+        &:hover{
+          background-color: $color__orange;
+        }
+      }
+    }
+  }
+}
+
+//note: Media Query
+@media (max-width:768px){
+  .sec__contact{
+    .form__contact{
+      margin-top: 0em;
+    }
+  }
+}
+
+@media (max-width:375px){
+  .sec__contact{
+    .txt__contact{
+      h2{font-size: 20px;}
+      h3{font-size: 15px;}
+    }
+  }
+}

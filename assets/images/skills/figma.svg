@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="60.000004"
+   width="40.008488"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="figma.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs30">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath995">
+      <path
+         d="M 0,1500 H 3000 V 0 H 0 Z"
+         id="path993" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1009">
+      <path
+         d="M 0,1500 H 3000 V 0 H 0 Z"
+         id="path1007" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1029">
+      <path
+         d="M 0,1500 H 3000 V 0 H 0 Z"
+         id="path1027" />
+    </clipPath>
+    <clipPath
+       id="clipPath18"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path16"
+         d="M 0,1500 H 3000 V 0 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath32"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path30"
+         d="M 0,1500 H 3000 V 0 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath52"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path50"
+         d="M 0,1500 H 3000 V 0 H 0 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview28"
+     showgrid="false"
+     inkscape:zoom="7.1224938"
+     inkscape:cx="17.880021"
+     inkscape:cy="39.567909"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_2_1_"
+     inkscape:document-rotation="0" />
+  <g
+     stroke-width="0.166667"
+     id="g916"
+     transform="translate(5933.3176,2450.2676)" />
+  <g
+     id="g987"
+     inkscape:label="adobe-experience-manager-seeklogo.com"
+     transform="matrix(0.04056964,0,0,-0.04056964,3937.8232,1861.7552)">
+    <g
+       id="g1023">
+      <g
+         id="g1155"
+         transform="matrix(1.9257011,0,0,-1.9257011,-13328.062,10549.122)">
+        <g
+           id="g1232"
+           transform="matrix(12.8,0,0,12.8,-25216.659,2558.4833)">
+          <g
+             id="g1248"
+             transform="matrix(0.15625,0,0,0.15625,-964.75167,-1121.9065)">
+            <g
+               style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+               id="g1436"
+               transform="matrix(1.0666667,0,0,1.0666667,-850.10638,-1612.754)">
+              <g
+                 fill-rule="nonzero"
+                 transform="translate(159.99996,83)"
+                 id="g1421">
+                <g
+                   fill="#9999ff"
+                   id="g1419">
+                  <path
+                     d="M 57,164.1 V 61.2 c 0,-0.7 0.3,-1.1 1,-1.1 1.7,0 3.3,0 5.6,-0.1 2.4,-0.1 4.9,-0.1 7.6,-0.2 2.7,-0.1 5.6,-0.1 8.7,-0.2 3.1,-0.1 6.1,-0.1 9.1,-0.1 8.2,0 15,1 20.6,3.1 5,1.7 9.6,4.5 13.4,8.2 3.2,3.2 5.7,7.1 7.3,11.4 1.5,4.2 2.3,8.5 2.3,13 0,8.6 -2,15.7 -6,21.3 -4,5.6 -9.6,9.8 -16.1,12.2 -6.8,2.5 -14.3,3.4 -22.5,3.4 -2.4,0 -4,0 -5,-0.1 -1,-0.1 -2.4,-0.1 -4.3,-0.1 V 164 c 0.1,0.7 -0.4,1.3 -1.1,1.4 H 58.2 C 57.4,165.4 57,165 57,164.1 Z M 78.8,79.4 V 113 c 1.4,0.1 2.7,0.2 3.9,0.2 H 88 c 3.9,0 7.8,-0.6 11.5,-1.8 3.2,-0.9 6,-2.8 8.2,-5.3 2.1,-2.5 3.1,-5.9 3.1,-10.3 0.1,-3.1 -0.7,-6.2 -2.3,-8.9 -1.7,-2.6 -4.1,-4.6 -7,-5.7 -3.7,-1.5 -7.7,-2.1 -11.8,-2 -2.6,0 -4.9,0 -6.8,0.1 -2,-0.1 -3.4,0 -4.1,0.1 z"
+                     id="path1415"
+                     style="fill:#ffffff" />
+                  <path
+                     d="m 146.6,85.2 h 17.5 c 1,0 1.8,0.7 2.1,1.6 0.3,0.8 0.5,1.6 0.6,2.5 0.2,1 0.4,2.1 0.5,3.1 0.1,1.1 0.2,2.3 0.2,3.6 3,-3.5 6.6,-6.4 10.7,-8.6 4.6,-2.6 9.9,-3.9 15.2,-3.9 0.7,-0.1 1.3,0.4 1.4,1.1 v 19.9 c 0,0.8 -0.5,1.1 -1.6,1.1 -3.6,-0.1 -7.3,0.2 -10.8,1 -2.9,0.6 -5.7,1.5 -8.4,2.7 -1.9,0.9 -3.7,2.1 -5.1,3.7 v 51 c 0,1 -0.4,1.4 -1.3,1.4 h -19.7 c -0.8,0.1 -1.5,-0.4 -1.6,-1.2 v -55.8 c 0,-2.4 0,-4.9 -0.1,-7.5 -0.1,-2.6 -0.1,-5.2 -0.2,-7.8 0,-2.3 -0.2,-4.5 -0.4,-6.8 -0.1,-0.5 0.2,-1 0.7,-1.1 0,-0.1 0.2,-0.1 0.3,0 z"
+                     id="path1417"
+                     style="fill:#ffffff" />
+                </g>
+                <g
+                   id="Layer_2_1_"
+                   transform="translate(-949.13318,-306.0715)">
+                  <g
+                     id="Outlined_Mnemonics_Logos"
+                     style="fill:#ffffff"
+                     transform="matrix(0.23959855,0,0,0.23959855,-903.14706,-1015.5226)">
+                    <g
+                       id="Xd"
+                       style="fill:#ffffff">
+                      <path
+                         class="st1"
+                         d="m 126.2,61.5 -30,49.5 32,52.5 c 0.2,0.4 0.3,0.8 0.2,1.2 -0.1,0.4 -0.5,0.1 -1.1,0.2 h -22.9 c -1.6,0 -2.7,-0.1 -3.4,-1.1 -2.1,-4.2 -4.3,-8.3 -6.4,-12.5 -2.1,-4.1 -4.4,-8.3 -6.8,-12.6 -2.4,-4.3 -4.8,-8.6 -7.2,-13 h -0.2 c -2.1,4.3 -4.4,8.6 -6.7,12.9 -2.3,4.3 -4.6,8.6 -6.8,12.8 -2.3,4.2 -4.6,8.5 -6.9,12.6 -0.4,1 -1.2,1.1 -2.3,1.1 h -22 c -0.4,0 -0.7,0.2 -0.7,-0.3 -0.1,-0.4 0,-0.8 0.2,-1.1 L 66.3,112.7 36,61.4 C 35.7,61 35.6,60.6 35.8,60.4 36,60.1 36.4,60 36.8,60 h 22.7 c 0.5,0 1,0.1 1.4,0.2 0.4,0.2 0.7,0.5 1,0.9 1.9,4.3 4.1,8.6 6.4,12.9 2.4,4.3 4.7,8.5 7.2,12.7 2.4,4.2 4.6,8.4 6.7,12.7 h 0.2 c 2.1,-4.4 4.3,-8.7 6.5,-12.9 2.2,-4.2 4.5,-8.4 6.8,-12.6 2.3,-4.2 4.5,-8.5 6.7,-12.6 0.1,-0.4 0.3,-0.8 0.6,-1 0.4,-0.2 0.8,-0.3 1.3,-0.2 h 21.1 c 0.5,-0.1 1,0.2 1.1,0.7 0.1,0.1 -0.1,0.5 -0.3,0.7 z"
+                         id="path1445"
+                         style="fill:#ffffff" />
+                      <path
+                         class="st1"
+                         d="m 172.4,167 c -7.4,0.1 -14.8,-1.4 -21.5,-4.5 -6.3,-2.9 -11.5,-7.7 -15.1,-13.6 -3.7,-6.1 -5.5,-13.7 -5.5,-22.8 -0.1,-7.4 1.8,-14.7 5.5,-21.1 3.8,-6.5 9.3,-11.9 15.9,-15.5 7,-3.9 15.4,-5.8 25.3,-5.8 0.5,0 1.2,0 2.1,0.1 0.9,0.1 1.9,0.1 3.1,0.2 V 52.4 c 0,-0.7 0.3,-1.1 1,-1.1 h 20.3 c 0.5,-0.1 0.9,0.3 1,0.7 0,0.1 0,0.2 0,0.2 v 95.2 c 0,1.8 0.1,3.8 0.2,6 0.2,2.1 0.3,4.1 0.4,5.8 0,0.7 -0.3,1.3 -1,1.6 -5.2,2.2 -10.7,3.8 -16.3,4.8 -5.1,0.9 -10.2,1.4 -15.4,1.4 z m 9.8,-20 v -44 c -0.9,-0.2 -1.8,-0.4 -2.7,-0.5 -1.1,-0.1 -2.2,-0.2 -3.3,-0.2 -3.9,0 -7.8,0.8 -11.3,2.6 -3.4,1.7 -6.3,4.2 -8.5,7.4 -2.2,3.2 -3.3,7.5 -3.3,12.7 -0.1,3.5 0.5,7 1.7,10.3 1,2.7 2.5,5.1 4.5,7.1 1.9,1.8 4.2,3.2 6.8,4 2.7,0.9 5.5,1.3 8.3,1.3 1.5,0 2.9,-0.1 4.2,-0.2 1.3,0.1 2.4,-0.1 3.6,-0.5 z"
+                         id="path1447"
+                         style="fill:#ffffff" />
+                    </g>
+                  </g>
+                  <path
+                     fill="currentColor"
+                     d="m -1007.6538,-1215.4851 a 60.011708,60.011708 0 0 0 0,-120.0234 h -120.0234 a 59.976604,59.976604 0 0 0 0,119.9532 60.011746,60.011746 0 0 0 0,120.0234 60.011708,60.011708 0 1 0 59.9766,60.0468 v -180 z m 0,0 a 59.976554,59.976554 0 1 0 59.97659,59.9766 59.983584,59.983584 0 0 0 -59.97659,-59.9766 z"
+                     id="path1469"
+                     style="fill:#222222;fill-opacity:1;stroke-width:0.703124" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <style
+     type="text/css"
+     id="style1438">
+	.st0{fill:#470137;}
+	.st1{fill:#FF61F6;}
+</style>
+</svg>

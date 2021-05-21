@@ -1,7 +1,843 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/images/fav_ico.ico" />
+  <title>Wasin Mekkit | Portfolio</title>
+  <!--include: Style Sheets-->
+  <link rel="stylesheet" href="assets/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/css/main.min.css" />
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <!--section: FakeLoader-->
+  <div id="fakeLoader"></div>
+
+  <!--section: Navbar-->
+  <section class="section__navbar">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item navbar__icon" href="javascript:void(0);" id="navLogo">
+          <img src="assets/images/logo_wasin.svg" alt="Wasin Mekkit">
+        </a>
+        <a id="navBurger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+          data-target="navMenu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="javascript:void(0);" class="navbar-item active" id="navHome"> Home </a>
+          <a href="javascript:void(0);" class="navbar-item" id="navAbout"> About </a>
+          <a href="javascript:void(0);" class="navbar-item" id="navPortfolio"> Portfolio </a>
+          <a href="javascript:void(0);" class="navbar-item" id="navContact"> Contact </a>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!--section: Home-->
+  <section class="section sec__home" id="sec__home">
+    <!--note: section Block Intro-->
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="blk__intro">
+            <div class="ele__intro">
+              <img src="assets/images/avatar_icon.svg" alt="Wasin Mekkit">
+              <h1>Wasin Mekkit</h1>
+              <h2>I'm a <span id="type__text"></span></h2>
+              <div class="btn__intro">
+                <a target="_blank" href="https://www.linkedin.com/in/wasin-mekkit/"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://github.com/artistkuf"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.facebook.com/wasin.mekkit/"><i
+                    class="fab fa-facebook-square"></i></a>
+                <a target="_blank" href="https://www.instagram.com/wasin_mekkit/"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:wasinmekkit@gmail.com"><i class="fas fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--note: section Pallarax-->
+    <div class="home__parallax" id="home__parallax" data-relative-input="true">
+      <img class="parallax__obj--01" data-depth="0.1" src="assets/images/parallax/parallax_obj-01.svg">
+      <img class="parallax__obj--02" data-depth="0.2" src="assets/images/parallax/parallax_obj-02.svg">
+      <img class="parallax__obj--03" data-depth="0.3" src="assets/images/parallax/parallax_obj-03.svg">
+      <img class="parallax__obj--04" data-depth="0.4" src="assets/images/parallax/parallax_obj-04.svg">
+      <img class="parallax__obj--05" data-depth="0.5" src="assets/images/parallax/parallax_obj-05.svg">
+      <img class="parallax__obj--06" data-depth="0.6" src="assets/images/parallax/parallax_obj-06.svg">
+      <img class="parallax__obj--07" data-depth="0.7" src="assets/images/parallax/parallax_obj-03.svg">
+      <img class="parallax__obj--08" data-depth="0.8" src="assets/images/parallax/parallax_obj-08.svg">
+      <img class="parallax__obj--09" data-depth="0.9" src="assets/images/parallax/parallax_obj-09.svg">
+      <img class="parallax__obj--10" data-depth="0.1" src="assets/images/parallax/parallax_obj-10.svg">
+      <img class="parallax__obj--11" data-depth="0.2" src="assets/images/parallax/parallax_obj-11.svg">
+      <img class="parallax__obj--12" data-depth="0.3" src="assets/images/parallax/parallax_obj-12.svg">
+    </div>
+
+    <!--note: section Scroll down-->
+    <div class="blk__scroll-down">
+      <a href="javascript:void(0);" id="scrollAbout">
+        <span>Scroll Down</span>
+        <span class="shape__mouse">
+          <span class="shape__wheel"></span>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!--section: About me-->
+  <section class="section sec__about" id="sec__about">
+    <div class="container">
+      <!--note: section Title-->
+      <div class="columns">
+        <div class="column">
+          <div class="txt__title">
+            <h2>About Me</h2>
+          </div>
+        </div>
+      </div>
+      <!--note: section Text info-->
+      <div class="columns is-centered is-vcentered blk__about">
+        <div class="column is-3">
+          <div class="img__profile">
+            <img src="assets/images/profile_img.png" alt="Wasin Mekkit">
+          </div>
+        </div>
+        <div class="column">
+          <div class="ele__about">
+            <h2>Hello there! I’m Wasin Mekkit.</h2>
+            <p>
+              I’m a Front End Developer from Bangkok, Thailand. I have extensive experience with the website development and design, as well as UX/UI design and motion graphics. I enjoy photography and travel. Digital Marketing, Programmatic Advertising, and Search engine optimization are all areas in which I am extremely interested.
+            </p>
+            <div class="ele__about--ul">
+              <ul>
+                <li><b>Name: </b>Wasin Mekkit</li>
+                <li><b>Email: </b>Wasinmekkit@gmail.com</li>
+                <li><b>Phone: </b>(+66)94-052-8596</li>
+                <li><b>Address: </b>Bangkok, Thailand</li>
+              </ul>
+              <div class="btn__about">
+                <a target="_blank" href="assets/files/Wasin-Mekkit.pdf"><i
+                    class="fas fa-cloud-download-alt"></i>Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section: Skills-->
+  <section class="section sec__skills">
+    <div class="container">
+      <!--note: section Title-->
+      <div class="columns">
+        <div class="column">
+          <div class="txt__title">
+            <h2>Skills</h2>
+          </div>
+        </div>
+      </div>
+      <!--note: section Code Skills-->
+      <div class="columns is-centered is-vcentered col__skill--coding">
+        <div class="column">
+          <div class="blk__skill">
+            <div class="txt__intro">
+              <span><i class="fas fa-file-code"></i></span>
+              <div class="txt__detail">
+                <h2>Coding</h2>
+                <p>Skills</p>
+              </div>
+            </div>
+            <div class="is-clearfix"></div>
+            <div class="ele__skill">
+              <ul>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/html.svg" alt="HTML"></div><span>HTML</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/js.svg" alt="JavaScript"></div>
+                  <span>JavaScript</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/php.svg" alt="PHP"></div><span>PHP</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/css.svg" alt="CSS"></div><span>CSS</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/jquery.svg" alt="Jquery"></div>
+                  <span>Jquery</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/sql.svg" alt="SQL"></div><span>SQL</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/sass.svg" alt="Sass"></div><span>Sass</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/vuejs.svg" alt="Vue.js"></div>
+                  <span>Vue.js</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/aem.svg" alt="Adobe AEM"></div><span>Adobe
+                    AEM</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider__skill">
+      <!--note: section Design Skills-->
+      <div class="columns is-centered is-vcentered col__skill--design">
+        <div class="column">
+          <div class="blk__skill">
+            <div class="txt__intro">
+              <span><i class="fas fa-palette"></i></span>
+              <div class="txt__detail">
+                <h2>Design</h2>
+                <p>Skills</p>
+              </div>
+            </div>
+            <div class="is-clearfix"></div>
+            <div class="ele__skill">
+              <ul>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/photoshop.svg" alt="Photoshop"></div>
+                  <span>Photoshop</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/premierepro.svg" alt="Premiere Pro"></div>
+                  <span>Premiere Pro</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/invision.svg" alt="Invision"></div>
+                  <span>Invision</span>
+                </li>
+
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/illustrator.svg" alt="Illustrator"></div>
+                  <span>Illustrator</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/xd.svg" alt="Adobe XD"></div><span>Adobe
+                    XD</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/crazytalk.svg" alt="Cartoon Animator"></div>
+                  <span>Cartoon Animator</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/aftereffect.svg" alt="After Effect"></div>
+                  <span>After Effect</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/figma.svg" alt="Figma"></div><span>Figma</span>
+                </li>
+                <li>
+                  <div class="img__skill"><img src="assets/images/skills/blender.svg" alt="Blender"></div>
+                  <span>Blender</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider__skill">
+      <!--note: section Other-->
+      <div class="columns is-centered is-vcentered col__skill--other">
+        <div class="column">
+          <div class="blk__skill">
+            <div class="txt__intro">
+              <span><i class="fas fa-book"></i></span>
+              <div class="txt__detail">
+                <h2>Other</h2>
+                <p>Skills</p>
+              </div>
+            </div>
+            <div class="is-clearfix"></div>
+            <div class="ele__skill--other">
+              <ul>
+                <li>Git</li>
+                <li>Trello</li>
+                <li>Cloudflare Worker</li>
+                <li>Adobe DTM</li>
+                <li>Adobe Analytics</li>
+                <li>Digital Marketing</li>
+                <li>Programmatic Advertising</li>
+                <li>Search engine optimization</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider__skill">
+    </div>
+  </section>
+
+  <!--section: Education-->
+  <section class="section sec__experience">
+    <div class="container">
+      <!--note: section Title-->
+      <div class="columns">
+        <div class="column">
+          <div class="txt__title">
+            <h2>Education</h2>
+          </div>
+        </div>
+      </div>
+      <!--note: section experience Education-->
+      <div class="columns">
+        <div class="column">
+          <div class="blk__experience">
+            <div class="txt__intro">
+              <span><i class="fas fa-graduation-cap"></i></span>
+              <div class="txt__detail">
+                <h2>2015 - 2017</h2>
+                <h3>Bachelor’s Degree in Information Technology</h3>
+                <p>North Bangkok University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider__skill">
+      <div class="is-clearfix"></div>
+      <div class="columns">
+        <div class="column">
+          <div class="blk__experience">
+            <div class="txt__intro">
+              <span><i class="fas fa-plane-departure"></i></span>
+              <div class="txt__detail">
+                <h2>2015</h2>
+                <h3>Information Technology Certification</h3>
+                <p>Kun Shan University <small>(One semester for Information and Communication courses.)</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider__skill">
+      <div class="is-clearfix"></div>
+      <div class="columns">
+        <div class="column">
+          <div class="blk__experience">
+            <div class="txt__intro">
+              <span><i class="fas fa-graduation-cap"></i></span>
+              <div class="txt__detail">
+                <h2>2012 - 2014</h2>
+                <h3>Diploma Vocational Certificate in Information Technology</h3>
+                <p>Siam Business Administration Technological College</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider__skill">
+      <div class="is-clearfix"></div>
+    </div>
+  </section>
+
+  <!--section: Experience-->
+  <section class="section sec__experience">
+    <div class="container">
+      <!--note: section Title-->
+      <div class="columns">
+        <div class="column">
+          <div class="txt__title">
+            <h2>Experience</h2>
+          </div>
+        </div>
+      </div>
+      <!--note: section experience Education-->
+      <div class="columns">
+        <div class="column">
+          <div class="blk__experience">
+            <div class="txt__intro">
+              <span><i class="fas fa-briefcase"></i></span>
+              <div class="txt__detail">
+                <h2>2018 - Present</h2>
+                <h3>Front End Developer</h3>
+                <p>Advanced Info Service PLC.</p>
+              </div>
+              <div class="txt__description">
+                <p>
+                  Working as a Front End Developer. I created a variety of websites for organizations in the telecommunications industry using HTML, CSS, Sass, JavaScript, and Adobe AEM as CMS. I contributed to the company's developer experience by implementing tools and technologies to improve our development process. And contributed with my team to improve UX/UI design to increase the efficiency of the customer journey. In addition, website optimization and Programmatic Advertising Platforms such as Cloudflare Worker, Adobe DTM, Adobe Analytics, Adnuntius, Relay42, and Cxense.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider__skill">
+      <div class="is-clearfix"></div>
+      <div class="columns">
+        <div class="column">
+          <div class="blk__experience">
+            <div class="txt__intro">
+              <span><i class="fas fa-briefcase"></i></i></span>
+              <div class="txt__detail">
+                <h2>2017 - 2018</h2>
+                <h3>Web Developer & Public Relations</h3>
+                <p>North Bangkok University </p>
+              </div>
+              <div class="txt__description">
+                <p>
+                  As a Web Developer & Public Relations. I contributed to the development of the university website. Including university data management system, Alumni website, and database management system, Online sales tracking system and summarized as a report using HTML, CSS, JavaScript, PHP, SQL plus modern libraries and frameworks. And also to work on the production of advertising media such as motion graphics, Banners, Google Ads, Social media Ads to boost online sales and increase university website traffic.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider__skill">
+      <div class="is-clearfix"></div>
+      <div class="columns">
+        <div class="column">
+          <div class="blk__experience">
+            <div class="txt__intro">
+              <span><i class="fas fa-briefcase"></i></span>
+              <div class="txt__detail">
+                <h2>2016 - 2017</h2>
+                <h3>ICOM TECH CO.,LTD </h3>
+                <p>Software Technician </p>
+              </div>
+              <div class="txt__description">
+                <p>
+                  My primary responsibility as a Software Technician was to support and advise clients. In terms of
+                  software applications as well as problem-solving. This includes software installation and client
+                  training. In addition, technical and manual preparation support and consultation to the sales team.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="divider__skill">
+      <div class="is-clearfix"></div>
+    </div>
+  </section>
+
+  <!--section: Awards-->
+  <section class="section sec__awards">
+    <div class="container">
+      <!--note: section Title-->
+      <div class="columns">
+        <div class="column">
+          <div class="txt__title">
+            <h2>Awards</h2>
+          </div>
+        </div>
+      </div>
+      <!--note: section Content Awards-->
+      <div class="columns is-vcentered is-multiline is-mobile">
+        <div class="column is-3-desktop is-6-tablet is-full-mobile">
+          <div class="blk__awards box">
+            <span><i class="fas fa-award"></i></span>
+            <h2>Honorable Mention Award</h2>
+            <p>Animation@Work 2020 from Reallusion.</p>
+            <small>2020</small>
+          </div>
+        </div>
+        <div class="column is-3-desktop is-6-tablet is-full-mobile">
+          <div class="blk__awards box">
+            <span><i class="fas fa-trophy"></i></span>
+            <h2>First Runner-up award</h2>
+            <p>Toyota moving challenge from The Style by Toyota.</p>
+            <small>2017</small>
+          </div>
+        </div>
+        <div class="column is-3-desktop is-6-tablet is-full-mobile">
+          <div class="blk__awards box">
+            <span><i class="fas fa-trophy"></i></span>
+            <h2>Glare Outstanding Work</h2>
+            <p>Asiagraph Reallusion Animation Award From Asiagraph.</p>
+            <small>2016</small>
+          </div>
+        </div>
+        <div class="column is-3-desktop is-6-tablet is-full-mobile">
+          <div class="blk__awards box">
+            <span><i class="fas fa-trophy"></i></span>
+            <h2>Winner Award</h2>
+            <p>Thailand Animation Contest From NECTEC.</p>
+            <small>2015</small>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <!--section: Portfolio-->
+  <section class="section sec__portfolio" id="sec__portfolio">
+    <div class="container">
+      <!--note: section Title-->
+      <div class="columns">
+        <div class="column">
+          <div class="txt__title">
+            <h2>Portfolio</h2>
+          </div>
+        </div>
+      </div>
+      <!--note: section Button filter-->
+      <div class="columns">
+        <div class="column">
+          <div class="buttons btn__filter" id="btn__filter">
+            <a data-filter="*">Everything</a>
+            <a data-filter="#web_design">Web</a>
+            <a data-filter="#motion_graphic">Motion</a>
+            <a data-filter="#graphic_design">Design</a>
+          </div>
+        </div>
+      </div>
+
+      <!--note: section Portfolio Thumbnails-->
+      <div class="blk__portfolio">
+        <div class="columns portfolio__wrapper" id="portfolio__wrapper">
+          <!--comment: Content 5G max speed-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="web_design">
+            <a id="content__01">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Web</h3>
+                  <h2>AIS 5G Max Speed<small>Website</small></h2>
+                  <span><i class="far fa-window-maximize"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/web/5g-max-speed/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content FXPay Motion Graphics-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="motion_graphic">
+            <a id="content__02">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Motion</h3>
+                  <h2>FXPay Pre-ICO <small>Motion Graphics</small></h2>
+                  <span><i class="fas fa-video"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/motion/fxpay/thumbnail.png" alt="">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content Chula Zero Waste-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="graphic_design">
+            <a id="content__03">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Design</h3>
+                  <h2>Chula Zero Waste <small>Poster Design</small></h2>
+                  <span><i class="fas fa-palette"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/creative/chula-zerowaste/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content Switch to AIS-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="web_design">
+            <a id="content__04">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Web</h3>
+                  <h2>Switch to AIS Package<small>Website</small></h2>
+                  <span><i class="far fa-window-maximize"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/web/move-to-ais/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content Ready2Fly-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="web_design">
+            <a id="content__05">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Web</h3>
+                  <h2>Ready2Fly Package <small>Website</small></h2>
+                  <span><i class="far fa-window-maximize"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/web/ready2fly/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content FXPay Motion Graphics-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="motion_graphic">
+            <a id="content__06">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Motion</h3>
+                  <h2>Local Election in Thailand <small>Motion Graphics</small></h2>
+                  <span><i class="fas fa-video"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/motion/ect/thumbnail.png" alt="">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content AIS 30th Aniversary Privilege-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="web_design">
+            <a id="content__07">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Web</h3>
+                  <h2>AIS 30th Aniversary Privilege<small>Website</small></h2>
+                  <span><i class="far fa-window-maximize"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/web/ais-aniversary/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content 5G Join-us Postpaid-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="web_design">
+            <a id="content__08">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Web</h3>
+                  <h2>AIS 5G Join-us Postpaid<small>Website</small></h2>
+                  <span><i class="far fa-window-maximize"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/web/5g-joinus-postpaid/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content Prepaid to Postpaid-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="web_design">
+            <a id="content__09">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Web</h3>
+                  <h2>AIS Prepaid to Postpaid<small>Website</small></h2>
+                  <span><i class="far fa-window-maximize"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/web/prepaid-to-postpaid/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content Thai Industrial Standards Institute  Motion Graphics-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="motion_graphic">
+            <a id="content__10">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Motion</h3>
+                  <h2>Thai Industrial Standards Institute <small>Motion Graphics</small></h2>
+                  <span><i class="fas fa-video"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/motion/tisi/thumbnail.png" alt="">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content AIS Review-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="web_design">
+            <a id="content__11">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Web</h3>
+                  <h2>AIS Review<small>Website</small></h2>
+                  <span><i class="far fa-window-maximize"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/web/review/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content AIS iPhone-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="web_design">
+            <a id="content__12">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Web</h3>
+                  <h2>AIS iPhone Store<small>Website</small></h2>
+                  <span><i class="far fa-window-maximize"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/web/iphone/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content Department of environmental quality promotion Thailand  Motion Graphics-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="motion_graphic">
+            <a id="content__13">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Motion</h3>
+                  <h2>Department of environmental quality promotion Thailand <small>Motion Graphics</small></h2>
+                  <span><i class="fas fa-video"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/motion/deqp/thumbnail.png" alt="">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!--comment: Content North Bkk Ads-->
+          <div class="column is-4-desktop is-6-tablet is-full-mobile" id="graphic_design">
+            <a id="content__14">
+              <div class="content__item">
+                <div class="content__detail">
+                  <h3>Design</h3>
+                  <h2>North Bangkok University <small>Ads Design</small></h2>
+                  <span><i class="fas fa-palette"></i></span>
+                </div>
+                <div class="content__thumb">
+                  <img src="assets/images/portfolio/creative/nbu-ads/thumbnail.png">
+                  <div class="content__mask"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <!--comment: Content See more-->
+        <div class="columns">
+          <div class="column">
+            <div class="txt__seemore">
+              <h2>
+                Here are some of the projects on which I've worked. Want to see more? <span><a
+                    href="mailto:wasinmekkit@gmail.com">Email me.</a></span>
+              </h2>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--section: Contact-->
+  <section class="section sec__contact" id="sec__contact">
+    <div class="container">
+      <!--note: section Title-->
+      <div class="columns">
+        <div class="column">
+          <div class="txt__title">
+            <h2>Contact</h2>
+          </div>
+        </div>
+      </div>
+      <!--note: section Contact Form-->
+      <div class="columns mt-5-desktop mt-0-tablet is-multiline">
+        <div class="column is-4-desktop is-full-tablet is-full-mobile">
+          <div class="txt__contact">
+            <h2>Let's talk about everything!</h2>
+            <h3>Email: <span><a href="mailto:Wasinmekkit@gmail.com">Wasinmekkit@gmail.com</a></span></h3>
+            <h3>Phone: <span><a href="tel:+6694-052-8596">(+66)94-052-8596</a></span></h3>
+
+          </div>
+        </div>
+        <div class="column is-6-desktop is-full-tablet is-full-mobile">
+          <div class="form__contact">
+            <form action="https://formspree.io/f/xnqlpodv" method="POST">
+
+              <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input " type="text" name="name" placeholder="Your name" required="">
+                  <span class="icon  is-left">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="email" name="email" placeholder="Your Email">
+                  <span class="icon is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="field">
+                <div class="control">
+                  <textarea name="message" class="textarea" placeholder="Message"></textarea>
+                </div>
+              </div>
+
+              <div class="field is-grouped is-grouped-left">
+                <p class="control">
+                  <button type="submit">
+                    Submit
+                  </button>
+                </p>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--section: Footer-->
+  <footer class="footer sec__footer">
+    <div class="container">
+      <div class="txt__footer">
+        <h2><i class="far fa-copyright"></i> 2021 <span>Wasin Mekkit</span>, All rights reserved.</h2>
+      </div>
+      <div class="blk__btn">
+        <a target="_blank" href="https://www.linkedin.com/in/wasin-mekkit/"><i class="fab fa-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/artistkuf"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://www.facebook.com/wasin.mekkit/"><i class="fab fa-facebook-square"></i></a>
+        <a target="_blank" href="https://www.instagram.com/wasin_mekkit/"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:wasinmekkit@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--include: JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fakeloader@1.0.0/fakeLoader.js"></script>
+  <script src="assets/js/home.js"></script>
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/portfolio.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="242.00267"
+   height="75.096939"
+   viewBox="0 0 64.029872 19.869399"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="logo_wasin.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="69.825305"
+     inkscape:cy="112.75922"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.1542949,-4.8012104)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:28.0196px;line-height:1.25;font-family:sans-serif;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.700492;"
+       x="-1.5442923"
+       y="22.929892"
+       id="text835"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="-1.5442923"
+         y="22.929892"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Caveat;-inkscape-font-specification:'Caveat Bold';stroke-width:0.700492;fill:#333333;fill-opacity:1;">Wasin<tspan
+   style="font-size:50.8px;fill:#333333;fill-opacity:1;"
+   id="tspan837" /></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:35.8311px;line-height:1.25;font-family:sans-serif;fill:#ffa31d;fill-opacity:0.96862745;stroke:none;stroke-width:0.373241;"
+       x="58.787876"
+       y="24.88011"
+       id="text841"><tspan
+         sodipodi:role="line"
+         id="tspan839"
+         x="58.787876"
+         y="24.88011"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.8311px;font-family:Caveat;-inkscape-font-specification:'Caveat Bold';stroke-width:0.373241;fill:#ffa31d;fill-opacity:0.96862745;">.</tspan></text>
+  </g>
+</svg>

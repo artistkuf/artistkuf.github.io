@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fab"
+   data-icon="html5"
+   class="svg-inline--fa fa-html5 fa-w-12"
+   role="img"
+   viewBox="0 0 51.428574 60.000001"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="html.svg"
+   width="51.428574"
+   height="60"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="2.3754368"
+     inkscape:cx="50.969389"
+     inkscape:cy="47.912537"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     inkscape:document-rotation="0" />
+  <path
+     fill="currentColor"
+     d="M 0,0 4.6741074,53.008927 25.647322,60 46.754465,53.008927 51.428572,0 Z M 41.276787,17.129465 H 16.660715 l 0.549107,6.616067 H 40.72768 l -1.821429,19.875001 -13.111608,3.616076 v 0.04022 H 25.647322 L 12.428572,43.620571 11.625001,33.468788 h 6.388393 l 0.46875,5.10268 7.165178,1.941963 7.191965,-1.941963 0.803571,-8.330361 H 11.290179 L 9.5758928,10.741108 H 41.866072 Z"
+     id="path2"
+     style="fill:#222222;fill-opacity:1;stroke-width:0.133929" />
+</svg>

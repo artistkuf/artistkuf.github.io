@@ -1,0 +1,67 @@
+//note: Color
+$color__orange: #ffa31d;
+$color__yellow: #ffad37;
+$color__light-gray: #cecece;
+$color__light-dark:#f9f9f9;
+$color__dark: #222222;
+$color__gray: #495057;
+$color__brow: #514438;
+$color__dark-blue: #353353;
+$color__light-blue: #764870;
+$color__white: #ffffff;
+$color__pink: #FF8984;
+$color__peace: #F8475E;
+$color__light-green: #00D686;
+$color__green: #009F86;
+$color__light-magenta:#BA5F79;
+$color__magenta: #B76BFF;
+$color__skyblue: #00C1EF;
+
+//note: Typography
+$primary__font: 'Roboto', sans-serif;
+$secondary__font: 'Caveat', cursive;
+$light:300;
+$normal: 400;
+$semi__normal: 500;
+$bold: 700;
+$extra__bold: 900;
+$intro__size: 70px;
+$title__size: 35px;
+$headline__size: 23px;
+$list__size: 20px;
+$content__size: 16px;
+$detail__size: 14px;
+
+
+//note: Mixin
+@mixin text__intro{
+  font-family: $secondary__font;
+  font-size: $intro__size;
+  font-weight: $bold;
+}
+@mixin  text__title {
+  font-family: $primary__font;
+  font-size: $title__size;
+}
+@mixin text__headline {
+  font-family: $primary__font;
+  font-size: $headline__size;
+}
+@mixin text__list {
+  font-family: $primary__font;
+  font-size: $list__size;
+}
+@mixin text__content  {
+  font-family: $primary__font;
+  font-size: $content__size;
+}
+@mixin text__detail  {
+  font-family: $primary__font;
+  font-size: $detail__size;
+}
+
+//note: Global Elements
+.container{max-width: 1080px!important;}
+.txt__title{
+  h2{@include text__title;font-weight: $extra__bold;color: $color__dark;position: relative;}
+}

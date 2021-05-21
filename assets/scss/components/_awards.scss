@@ -1,0 +1,33 @@
+.sec__awards{
+  background-color: $color__light-dark;padding-top: 1em;
+  .blk__awards{
+    text-align: center;
+    padding: 0.7em;height: 175px;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(0);
+    span{@include text__title;color: $color__yellow}
+    h2{@include text__content;font-weight: $bold;color: $color__dark;}
+    p{@include text__detail;font-weight: $normal;color: $color__gray;}
+    small{@include text__detail;font-size: 0.8em;color: $color__gray;font-weight: $bold;}
+    &:hover{transform: translateY(-10px);}
+  }
+}
+
+
+//note: Media Query
+@media (max-width:1024px){
+  .sec__awards{
+    .blk__awards{
+      height: auto;
+    }
+  }
+}
+
+@media (max-width:425px){
+  .sec__awards{
+    .blk__awards{
+      h2{font-size: 15px;}
+      p{font-size: 13px;}
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.sec__footer{
+  background-color: $color__dark-blue;
+  .txt__footer{
+    text-align: center;margin-top: 1em;
+    h2{
+      @include text__content;color: $color__white;font-weight: $bold;
+      span{color: $color__orange;}
+    }
+  }
+  .blk__btn{
+    margin-top: 1em;text-align: center;
+    a{
+      @include text__list;color: $color__white;padding:0 0.3em;transition: all 0.3s ease-in-out;display: inline-block;
+      &:hover{color: $color__orange;}
+    }
+  }
+}
+
+//note: Media Query
+@media (max-width:375px){
+  .sec__footer{
+    .txt__footer{
+      h2{font-size: 14px;}
+    }
+  }
+}
