@@ -1,11 +1,11 @@
   //note: Script Fake Loader
   $(document).ready(function () {
-    // $("#fakeLoader").fakeLoader({
-    //   timeToHide: 3000,
-    //   zIndex: 999,
-    //   spinner: "spinner1",
-    //   bgColor: "#ffa31d",
-    // });
+    $("#fakeLoader").fakeLoader({
+      timeToHide: 3000,
+      zIndex: 999,
+      spinner: "spinner1",
+      bgColor: "#ffa31d",
+    });
 
     //note: Script Parallax
     var scene = $('#home__parallax').get(0);
