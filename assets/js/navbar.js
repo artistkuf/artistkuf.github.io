@@ -44,17 +44,58 @@
   //note: navBar Scrollto change class
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if (scroll <= 500) {
+    if (scroll <= 600) {
       $("#navHome").addClass('active');
       $(".navbar-end a").parent().children('a').not("#navHome").removeClass('active');
-    } else if (scroll <= 4000) {
+    } else if (scroll <= 4300) {
       $("#navAbout").addClass('active');
       $(".navbar-end a").parent().children('a').not("#navAbout").removeClass('active');
-    } else if (scroll <= 5000) {
+    } else if (scroll <= 5600) {
       $("#navPortfolio").addClass('active');
       $(".navbar-end a").parent().children('a').not("#navPortfolio").removeClass('active');
-    } else if (scroll <= 8001) {
+    } else {
       $("#navContact").addClass('active');
       $(".navbar-end a").parent().children('a').not("#navContact").removeClass('active');
     }
   });
+
+
+  //note: navBar Matchmedia 768px
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      if (scroll <= 500) {
+        $("#navHome").addClass('active');
+        $(".navbar-end a").parent().children('a').not("#navHome").removeClass('active');
+      } else if (scroll <= 5200) {
+        $("#navAbout").addClass('active');
+        $(".navbar-end a").parent().children('a').not("#navAbout").removeClass('active');
+      } else if (scroll <= 14000) {
+        $("#navPortfolio").addClass('active');
+        $(".navbar-end a").parent().children('a').not("#navPortfolio").removeClass('active');
+      } else {
+        $("#navContact").addClass('active');
+        $(".navbar-end a").parent().children('a').not("#navContact").removeClass('active');
+      }
+    });
+  }
+
+  //note: navBar Matchmedia 768px
+  if (window.matchMedia("(max-width: 425px)").matches) {
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      if (scroll <= 400) {
+        $("#navHome").addClass('active');
+        $(".navbar-end a").parent().children('a').not("#navHome").removeClass('active');
+      } else if (scroll <= 5000) {
+        $("#navAbout").addClass('active');
+        $(".navbar-end a").parent().children('a').not("#navAbout").removeClass('active');
+      } else if (scroll <= 9700) {
+        $("#navPortfolio").addClass('active');
+        $(".navbar-end a").parent().children('a').not("#navPortfolio").removeClass('active');
+      } else {
+        $("#navContact").addClass('active');
+        $(".navbar-end a").parent().children('a').not("#navContact").removeClass('active');
+      }
+    });
+  }
