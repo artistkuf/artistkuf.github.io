@@ -125,7 +125,7 @@ $(document).ready(function () {
   $("#content__06").magnificPopup({
     items: [
       {
-        src: "https://www.youtube.com/watch?v=nd54Gm0xyMk",
+        src: "https://vimeo.com/559815233",
         type: "iframe",
       },
     ],
