@@ -25,6 +25,21 @@ $("#btn__filter a").click(function (event) {
 
 //note: Script Popup Portfolio
 $(document).ready(function () {
+  //comment: Content Disney
+  $("#content__15").magnificPopup({
+    items: [
+      {
+        src: "/assets/images/portfolio/web/disney/disney.png",
+      },
+      {
+        src: "/assets/images/portfolio/web/disney/disney-2.png",
+      },
+    ],
+    gallery: {
+      enabled: true,
+    },
+    type: "image",
+  });
   //comment: Content 5G max speed
   $("#content__01").magnificPopup({
     items: [
